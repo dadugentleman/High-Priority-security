@@ -11,4 +11,10 @@ public class Ola {
     public String hello() {
         return "Hello World";
     }
+
+    @GetMapping("/public")
+    public String publicc() {
+        return "publicc";
+    }
+
 }
